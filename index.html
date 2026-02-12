@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -10,467 +10,116 @@
     <meta name="author" content="اقمشه فـرزاتشـي">
     <title>اقمشه فـرزاتشـي</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- AOS - Animate On Scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- GSAP for Advanced Animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
-
 <body>
-    <!-- Page Loader -->
-    <div class="page-loader" id="pageLoader">
+    <div class="loader-page" id="loader">
         <div class="loader-content">
-            <div class="loader-logo">اقمشه فـرزاتشـي</div>
-            <div class="loader-progress">
-                <div class="loader-progress-bar"></div>
+            <div class="box-img">
+                <img src="assets/images/loading-1.jpg" class="loading-1" />
+                <img src="assets/images/loading-2.jpg" class="loading-2" />
             </div>
         </div>
     </div>
+    <section class="hero">
 
-    <!-- Animated Background Elements -->
-    <div class="background-particles">
-        <div class="bg-particle"></div>
-        <div class="bg-particle"></div>
-        <div class="bg-particle"></div>
-        <div class="bg-particle"></div>
-        <div class="bg-particle"></div>
-        <div class="bg-particle"></div>
-    </div>
-    
-    <div class="background-rays">
-        <div class="ray"></div>
-        <div class="ray"></div>
-        <div class="ray"></div>
-        <div class="ray"></div>
-        <div class="ray"></div>
-    </div>
-    
-    <div class="glow-orb"></div>
-    <div class="glow-orb"></div>
-    <div class="glow-orb"></div>
 
-    <section class="hero-slider">
-        <div class="slider-container">
-            <div class="swiper hero-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide-bg" data-bg="assets/images/banner.png"></div>
-                        <div class="slide-content">
-                            <div class="content-wrapper">
-                                <div class="slide-badge">بوتيك فرزاتشي</div>
-                                <h1 class="slide-title">
-                                    <span class="title-line">أقمشة فاخرة</span>
-                                    <span class="title-line">للمشاهير والمصممين</span>
-                                </h1>
-                                <a href="#branches" class="slide-btn">
-                                    <span>استكشف الآن</span>
-                                    <i class="fas fa-arrow-left"></i>
+        <div class="video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="assets/images/bg-video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8 col-md-12">
+                    <div class="hero-content">
+                        <img src="assets/images/logo.png" class="logo-hero" />
+                        <h1 class="main-title">
+                            أناقة الأقمشة
+                            تبدأ من هنا
+                        </h1>
+                        <p class="par-hero">
+                            خبرة سنوات في عالم الأقمشة الرجالية والنسائية بأعلى جودة
+                        </p>
+
+                        <ul class="ul-phones">
+                            <li class="call-dropdown">
+
+                                <a href="https://wa.me/966569397391" target="_blank" class="link-phone">
+                                    <div class="box-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M437.018 74.98C388.665 26.628 324.378 0 255.998 0h-.002C187.622 0 123.33 26.631 74.98 74.98 26.629 123.332 0 187.619 0 256c.002 43.529 11.08 86.312 32.092 124.152L.554 492.96a15.001 15.001 0 0 0 18.486 18.485l112.811-31.539c37.836 21.015 80.617 32.093 124.148 32.094 68.381 0 132.668-26.629 181.021-74.981S512 324.379 512 255.999c-.002-68.381-26.632-132.667-74.982-181.019zM255.998 482c-40.346-.001-79.949-10.773-114.531-31.151a14.991 14.991 0 0 0-11.654-1.523L36.619 475.38l26.054-93.191a15 15 0 0 0-1.522-11.653C40.773 335.949 30.002 296.343 30 255.999c0-60.367 23.508-117.12 66.194-159.806S195.633 30 255.998 30C380.612 30 481.996 131.383 482 255.999 482 380.616 380.616 482 255.998 482z" fill="#c9a24d" opacity="1" data-original="#000000"></path><path d="M366.507 275.182c-9.169-9.17-21.396-14.22-34.428-14.22s-25.258 5.05-34.425 14.219l-6.954 6.953c-1.715 1.714-4.02 2.659-6.489 2.659-2.471 0-4.776-.945-6.494-2.663l-47.873-47.872c-1.715-1.714-2.659-4.02-2.66-6.491 0-2.471.943-4.775 2.656-6.488l6.956-6.955c18.983-18.983 18.983-49.871.001-68.854l-13.911-13.915c-9.171-9.167-21.397-14.214-34.428-14.214s-25.257 5.048-34.427 14.218l-10.372 10.374c-21.929 21.929-29.889 54.585-22.416 91.955 7.033 35.164 27.136 70.762 56.607 100.236 37.139 37.135 84.439 59.307 126.53 59.31h.008c26.521 0 49.226-8.684 65.655-25.113l10.373-10.373c18.983-18.983 18.983-49.873 0-68.858zm-7.303 61.553-10.373 10.373c-10.682 10.681-26.048 16.326-44.442 16.326h-.005c-34.312-.002-73.684-18.889-105.319-50.522-25.33-25.332-42.52-55.486-48.403-84.907-5.443-27.217-.396-50.25 14.212-64.859l10.371-10.373c3.503-3.502 8.195-5.431 13.214-5.431 5.021 0 9.715 1.929 13.216 5.429l13.909 13.912c7.286 7.287 7.286 19.142.001 26.428l-6.956 6.955c-7.381 7.38-11.445 17.22-11.444 27.706.001 10.484 4.067 20.323 11.447 27.702l47.873 47.871c7.382 7.384 17.222 11.45 27.707 11.45 10.483 0 20.321-4.065 27.701-11.445l6.955-6.954c3.502-3.503 8.194-5.432 13.212-5.432 5.019 0 9.711 1.929 13.215 5.433l13.909 13.909c7.286 7.285 7.287 19.142 0 26.429z" fill="#c9a24d" opacity="1" data-original="#000000"></path></g></svg>
+                                    </div>
+                                    <span class="span-btn">   تواصل معنا</span>
                                 </a>
-                            </div>
-                        </div>
-                        <div class="slide-particles">
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                        </div>
-                        <div class="slide-shapes">
-                            <div class="shape shape-1"></div>
-                            <div class="shape shape-2"></div>
-                            <div class="shape shape-3"></div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide-bg" data-bg="assets/images/banner2.png"></div>
-                        <div class="slide-content">
-                            <div class="content-wrapper">
-                                <div class="slide-badge">جودة عالمية</div>
-                                <h1 class="slide-title">
-                                    <span class="title-line">تصميم مخصص</span>
-                                    <span class="title-line">بأعلى المعايير</span>
-                                </h1>
-                                <a href="#branches" class="slide-btn">
-                                    <span>زورونا</span>
-                                    <i class="fas fa-arrow-left"></i>
+
+                            </li>
+                            <li class="call-dropdown">
+
+                                <a href="tel:+966569397391 " class="link-phone en-font">
+                                    <div class="box-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#c9a24d" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0c116.11 0 210.57-94.46 210.57-210.569" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(291.43 501.89)" fill="none" stroke="#c9a24d" stroke-width="20px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path><path d="M0 0c82.931 0 150.41-67.48 150.41-150.41" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(291.43 441.73)" fill="none" stroke="#c9a24d" stroke-width="20px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path><path d="M0 0c49.761 0 90.24-40.479 90.24-90.239" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(291.43 381.56)" fill="none" stroke="#c9a24d" stroke-width="20px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path><path d="M0 0c16.61 0 30.08-13.471 30.08-30.08" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(291.43 321.4)" fill="none" stroke="#c9a24d" stroke-width="20px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path><path d="M0 0c0-5.523-4.477-10-10-10-5.522 0-10 4.477-10 10 0 5.522 4.478 10 10 10C-4.477 10 0 5.522 0 0" style="fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(187.418 187.196)" fill="#c9a24d" data-original="#000000" opacity="1"></path><path d="M0 0a383.558 383.558 0 0 0-18.018 25.798c-7.439 11.649-5.189 27.079 4.58 36.849l33.951 33.951c7.309 7.299 7.309 19.149 0 26.45l-79.901 79.899c-7.3 7.311-19.149 7.311-26.449 0l-20.221-20.219c-32.819-32.811-41.689-82.89-21.089-124.47 36.65-73.99 112.07-187.41 257.37-258.66 41.71-20.441 92.02-11.771 124.86 21.069l20.68 20.681c7.309 7.299 7.309 19.149 0 26.46l-79.901 79.889c-7.3 7.311-19.149 7.311-26.449 0l-33.95-33.95c-9.771-9.769-25.2-12.019-36.851-4.58a383.454 383.454 0 0 0-36.228 26.25" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(148.197 221.393)" fill="none" stroke="#c9a24d" stroke-width="20px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path></g></g></svg>
+                                    </div>
+                                    +966 56 939 7391
                                 </a>
-                            </div>
-                        </div>
-                        <div class="slide-particles">
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                            <div class="particle"></div>
-                        </div>
-                        <div class="slide-shapes">
-                            <div class="shape shape-1"></div>
-                            <div class="shape shape-2"></div>
-                            <div class="shape shape-3"></div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Navigation -->
-                <div class="hero-nav prev">
-                    <div class="nav-inner">
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="nav-ripple"></div>
-                </div>
-                <div class="hero-nav next">
-                    <div class="nav-inner">
-                        <i class="fas fa-chevron-left"></i>
-                    </div>
-                    <div class="nav-ripple"></div>
-                </div>
+                            </li>
 
-                <!-- Pagination -->
-                <div class="hero-pagination"></div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== Services Section ===== -->
-    <section class="services-section gradient-extend">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
-                        <h2 class="branches-main-title">خــدماتنا المميزة</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in card-glow shimmer" data-aos="fade-up" data-aos-delay="0">
-                        <div class="service-icon">
-                            <i class="fas fa-cut"></i>
-                        </div>
-                        <h3 class="service-title">تصميم مخصص</h3>
-                        <p class="service-text">نقدم خدمات تصميم الأقمشة المخصصة للمشاهير والمصممين بأعلى معايير الجودة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in card-glow shimmer" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3 class="service-title">ألوان متنوعة</h3>
-                        <p class="service-text">مجموعة واسعة من الألوان والأنماط لتلبية جميع احتياجاتك وأذواقك المميزة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in card-glow shimmer" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-icon">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h3 class="service-title">جودة عالية</h3>
-                        <p class="service-text">أقمشة فاخرة من أفضل الخامات العالمية لضمان الراحة والأناقة في كل قطعة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in card-glow shimmer" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h3 class="service-title">استشارة متخصصة</h3>
-                        <p class="service-text">فريق من الخبراء جاهز لمساعدتك في اختيار الأقمشة المناسبة لمشروعك</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-icon">
-                            <i class="fas fa-shipping-fast"></i>
-                        </div>
-                        <h3 class="service-title">توصيل سريع</h3>
-                        <p class="service-text">خدمة توصيل سريعة وآمنة لجميع أنحاء المملكة مع ضمان وصول طلبك بسلام</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card fade-in" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-icon">
-                            <i class="fas fa-heart"></i>
-                        </div>
-                        <h3 class="service-title">رعاية شخصية</h3>
-                        <p class="service-text">نقدم لك تجربة تسوق فريدة مع رعاية شخصية واهتمام بكل التفاصيل</p>
+                            <!--<li class="contact-btn">
+                                <a href="#" class="btn-primary">تواصل معنا</a>
+                            </li>-->
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- ===== Statistics Section ===== -->
-    <section class="statistics-section gradient-extend">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="stat-card fade-in" data-aos="zoom-in" data-aos-delay="0">
-                        <div class="stat-icon">
-                            <i class="fas fa-calendar-alt"></i>
-                        </div>
-                        <div class="stat-number" data-target="10">0</div>
-                        <div class="stat-label">سنوات من الخبرة</div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="stat-card fade-in" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="stat-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="stat-number" data-target="5000">0</div>
-                        <div class="stat-label">عميل راضٍ</div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="stat-card fade-in" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="stat-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <div class="stat-number" data-target="100">0</div>
-                        <div class="stat-label">نوع قماش</div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="stat-card fade-in" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="stat-icon">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="stat-number" data-target="98">0</div>
-                        <div class="stat-label">% رضا العملاء</div>
-                    </div>
-                </div>
-            </div>
+        <div class="bottom-svg2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 116" preserveAspectRatio="none">
+                <path fill="#0f0f0f" d="M0,110 C200,76.6666667 400,60 600,60 C800,60 1000,76.6666667 1200,110 L1200,116 L0,116 L0,110 Z"></path>
+                <defs></defs>
+            </svg>
         </div>
+
     </section>
 
-    <!-- ===== Why Choose Us Section ===== -->
-    <section class="why-choose-section gradient-extend">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
-                        <h2 class="branches-main-title">لماذا تختارنا</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-6">
-                    <div class="why-choose-content fade-in" data-aos="fade-right" data-aos-duration="1200">
-                        <div class="why-item">
-                            <div class="why-icon">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <div class="why-text">
-                                <h4>خبرة عريقة</h4>
-                                <p>أكثر من 10 سنوات من الخبرة في عالم الأقمشة الفاخرة وتصميم الأزياء</p>
-                            </div>
-                        </div>
-                        <div class="why-item">
-                            <div class="why-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="why-text">
-                                <h4>خامات عالمية</h4>
-                                <p>نستورد أجود أنواع الأقمشة من أفضل المصانع العالمية لضمان الجودة</p>
-                            </div>
-                        </div>
-                        <div class="why-item">
-                            <div class="why-icon">
-                                <i class="fas fa-handshake"></i>
-                            </div>
-                            <div class="why-text">
-                                <h4>خدمة متميزة</h4>
-                                <p>فريق محترف جاهز لتقديم الاستشارة والدعم في كل خطوة</p>
-                            </div>
-                        </div>
-                        <div class="why-item">
-                            <div class="why-icon">
-                                <i class="fas fa-crown"></i>
-                            </div>
-                            <div class="why-text">
-                                <h4>ثقة المشاهير</h4>
-                                <p>نفخر بكوننا المزود المفضل للمشاهير والمصممين المشهورين</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="why-choose-image fade-in" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="why-image-wrapper">
-                            <img src="assets/images/banner2.png" alt="لماذا تختارنا" />
-                            <div class="why-badge">
-                                <i class="fas fa-star"></i>
-                                <span>الخيار الأول</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== Fabric Categories Section ===== -->
-    <section class="categories-section gradient-extend">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
-                        <h2 class="branches-main-title">أنواع الأقمشة</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in card-glow shimmer" data-aos="flip-left" data-aos-delay="0">
-                        <div class="category-image">
-                            <i class="fas fa-tshirt"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة الحرير</h3>
-                        <p class="category-text">أقمشة حريرية فاخرة من أجود الأنواع العالمية للأناقة والراحة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in card-glow shimmer" data-aos="flip-left" data-aos-delay="100">
-                        <div class="category-image">
-                            <i class="fas fa-gem"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة الكشمير</h3>
-                        <p class="category-text">كشمير ناعم وفاخر للملابس الراقية والأنيقة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in" data-aos="flip-left" data-aos-delay="200">
-                        <div class="category-image">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة القطن</h3>
-                        <p class="category-text">قطن مصري فاخر عالي الجودة للملابس اليومية والرسمية</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in" data-aos="flip-left" data-aos-delay="300">
-                        <div class="category-image">
-                            <i class="fas fa-fire"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة الصوف</h3>
-                        <p class="category-text">صوف طبيعي دافئ ومريح للملابس الشتوية</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in" data-aos="flip-left" data-aos-delay="400">
-                        <div class="category-image">
-                            <i class="fas fa-sparkles"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة مطرزة</h3>
-                        <p class="category-text">أقمشة مطرزة يدوياً بتصاميم فريدة وأنيقة</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="category-card fade-in" data-aos="flip-left" data-aos-delay="500">
-                        <div class="category-image">
-                            <i class="fas fa-magic"></i>
-                        </div>
-                        <h3 class="category-title">أقمشة مخصصة</h3>
-                        <p class="category-text">تصميم أقمشة مخصصة حسب طلبك وذوقك الخاص</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== Process Section ===== -->
-    <section class="process-section gradient-extend">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
-                        <h2 class="branches-main-title">كيف نعمل</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-step fade-in" data-aos="zoom-in-up" data-aos-delay="0">
-                        <div class="step-number">01</div>
-                        <div class="step-icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <h4 class="step-title">استكشف المجموعة</h4>
-                        <p class="step-text">تصفح مجموعتنا الواسعة من الأقمشة الفاخرة</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-step fade-in" data-aos="zoom-in-up" data-aos-delay="200">
-                        <div class="step-number">02</div>
-                        <div class="step-icon">
-                            <i class="fas fa-comments"></i>
-                        </div>
-                        <h4 class="step-title">استشارة مجانية</h4>
-                        <p class="step-text">احصل على استشارة من خبرائنا لاختيار الأنسب</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-step fade-in" data-aos="zoom-in-up" data-aos-delay="400">
-                        <div class="step-number">03</div>
-                        <div class="step-icon">
-                            <i class="fas fa-edit"></i>
-                        </div>
-                        <h4 class="step-title">تصميم مخصص</h4>
-                        <p class="step-text">صمم قماشك الخاص حسب رغبتك وذوقك</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-step fade-in" data-aos="zoom-in-up" data-aos-delay="600">
-                        <div class="step-number">04</div>
-                        <div class="step-icon">
-                            <i class="fas fa-shipping-fast"></i>
-                        </div>
-                        <h4 class="step-title">تسليم سريع</h4>
-                        <p class="step-text">استلم طلبك بسرعة وأمان في مكانك</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== About Section ===== -->
     <section class="about-section gradient-extend">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
-                        <h2 class="branches-main-title">مــن نحــن</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-content fade-in" data-aos="fade-right" data-aos-duration="1200">
-                        <h3 class="about-title">بوتيك فرزاتشي للأقمشة</h3>
+
+
+            <!-- Content -->
+            <div class="row g-5 align-items-center justify-content-between">
+
+                <!-- Text -->
+                <div class="col-lg-7 col-md-6">
+                    <div class="about-content">
+                        <div class="title-section-box">
+
+                            <!--<span class="sup-title-page">مــن نحــن</span>-->
+                            <h2 class="about-title">بوتيك فرزاتشي للأقمشة</h2>
+                        </div>
                         <p class="about-text">
-                            نحن متخصصون في تصميم وتوفير أجود أنواع الأقمشة الفاخرة للمشاهير والمصممين في المملكة العربية السعودية. 
-                            منذ تأسيسنا، نلتزم بتقديم أفضل الخامات العالمية مع خدمة عملاء متميزة.
+                            نحن متخصصون في تصميم وتوفير أجود أنواع الأقمشة الفاخرة
+                            للمشاهير والمصممين في المملكة العربية السعودية.
+                            منذ تأسيسنا، نلتزم بتقديم أفضل الخامات العالمية
+                            مع خدمة عملاء متميزة.
                         </p>
+
                         <p class="about-text">
-                            في بوتيك فرزاتشي، نؤمن بأن كل قطعة قماش تحمل قصة فريدة. لذلك نحرص على اختيار كل خامة بعناية 
-                            فائقة لضمان الجودة والأناقة في كل منتج نقدمه لعملائنا الكرام.
+                            في بوتيك فرزاتشي، نؤمن بأن كل قطعة قماش تحمل قصة فريدة،
+                            لذلك نحرص على اختيار كل خامة بعناية فائقة
+                            لضمان الجودة والأناقة في كل منتج نقدمه.
                         </p>
+
                         <div class="about-features">
                             <div class="about-feature">
                                 <i class="fas fa-check-circle"></i>
-                                <span>أكثر من 10 سنوات من الخبرة</span>
+                                <span>أكثر من ١٥ سنه من الخبرة</span>
                             </div>
                             <div class="about-feature">
                                 <i class="fas fa-check-circle"></i>
@@ -483,158 +132,195 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-image fade-in" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="about-image-wrapper">
-                            <img src="assets/images/banner.png" alt="بوتيك فرزاتشي" />
+
+                <!-- Image -->
+                <div class="col-xl-4 col-lg-5 col-md-6">
+                    <div class="about-image">
+                        <div class="about-image-wrapper open-img-popup">
+                            <img src="assets/images/about-img.jpg"
+                                 alt="بوتيك فرزاتشي"
+                                 class="img-custom-anim-right popup-trigger"
+                                 onclick="openGalleryPopup(['assets/images/about-img.jpg'],0)">
+
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- ===== Testimonials Section ===== -->
-    <section class="testimonials-section gradient-extend">
+    <section class="services-section gradient-extend">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-section">
-                        <h2 class="branches-main-title">مــا يقوله عملاؤنا</h2>
+                        <h2 class="branches-main-title">خــدماتنا المميزة</h2>
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="testimonial-card fade-in card-glow shimmer" data-aos="flip-up" data-aos-delay="0">
-                        <div class="testimonial-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+            <div class="row g-5 justify-content-between">
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card fade-in shimmer" data-aos="fade-up" data-aos-delay="0">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3 class="service-title">تصميم مخصص</h3>
+                        <p class="service-text">نقدم خدمات تصميم الأقمشة المخصصة للمشاهير والمصممين بأعلى معايير الجودة</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card fade-in shimmer" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
                             <i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial-text">
-                            "تجربة رائعة! الأقمشة فاخرة والخدمة ممتازة. أنصح الجميع بزيارة بوتيك فرزاتشي للحصول على أفضل الأقمشة."
+                        <h3 class="service-title">جودة عالية</h3>
+                        <p class="service-text">أقمشة فاخرة من أفضل الخامات العالمية لضمان الراحة والأناقة في كل قطعة</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="why-choose-image box-banner open-img-popup fade-in" data-aos="fade-left" data-aos-duration="1200">
+
+                        <img src="assets/images/banner.png"
+                             alt="لماذا تختارنا"
+                             class="img-servi popup-trigger"
+                             onclick="openGalleryPopup(['assets/images/banner.png'],0)">
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card fade-in shimmer" data-aos="fade-up" data-aos-delay="0">
+                        <div class="service-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="service-title">
+                            خبرة عريقة
+                        </h3>
+                        <p class="service-text">
+                            أكثر من 15 سنة من الخبرة في عالم الأقمشة الفاخرة وتصميم الأزياء
                         </p>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4 class="author-name">سارة أحمد</h4>
-                                <p class="author-role">مصممة أزياء</p>
-                            </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card fade-in shimmer" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="service-title">
+                            خامات عالمية
+                        </h3>
+                        <p class="service-text">
+                            نستورد أجود أنواع الأقمشة من أفضل المصانع العالمية لضمان الجودة
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="why-choose-image box-banner open-img-popup fade-in" data-aos="fade-left" data-aos-duration="1200">
+
+                        <img src="assets/images/banner2.png"
+                             alt="لماذا تختارنا"
+                             class="img-servi popup-trigger"
+                             onclick="openGalleryPopup(['assets/images/banner2.png'],0)" />
+
+                        <div class="why-badge">
+                            <i class="fas fa-star"></i>
+                            <span>الخيار الأول</span>
+
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="testimonial-card fade-in card-glow shimmer" data-aos="flip-up" data-aos-delay="150">
-                        <div class="testimonial-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "الجودة والأناقة في مكان واحد. فريق العمل محترف جداً وساعدني في اختيار الأقمشة المثالية لمشروعي."
-                        </p>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4 class="author-name">محمد الخالدي</h4>
-                                <p class="author-role">مصمم داخلي</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="testimonial-card fade-in card-glow shimmer" data-aos="flip-up" data-aos-delay="300">
-                        <div class="testimonial-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "أفضل مكان للأقمشة الفاخرة في جدة. التنوع رائع والأسعار مناسبة. شكراً لكم على الخدمة المميزة!"
-                        </p>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4 class="author-name">فاطمة العلي</h4>
-                                <p class="author-role">عميلة مميزة</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
-
-    <!-- ===== Contact Section ===== -->
-    <section class="contact-section gradient-extend">
+    <section class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-section">
+                <div class="col-12">
+                    <div class="title-section text-center mb-5">
                         <h2 class="branches-main-title">تواصــل معنا</h2>
+                        <div class="gold-divider"></div>
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- WhatsApp -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="contact-card fade-in card-glow shimmer" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="contact-card">
                         <div class="contact-icon">
                             <i class="fab fa-whatsapp"></i>
                         </div>
                         <h3 class="contact-title">واتساب</h3>
                         <p class="contact-text">تواصل معنا مباشرة عبر واتساب</p>
-                        <a href="https://wa.me/966569397391" target="_blank" style="direction: ltr;" class="contact-link">
+                        <a href="https://wa.me/966569397391"
+                           target="_blank"
+                           class="contact-link"
+                           style="direction: ltr;">
                             +966 56 939 7391
                         </a>
                     </div>
                 </div>
+
+                <!-- Working Hours -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="contact-card fade-in card-glow shimmer" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="contact-card">
                         <div class="contact-icon">
                             <i class="fas fa-clock"></i>
                         </div>
                         <h3 class="contact-title">ساعات العمل</h3>
                         <p class="contact-text">نحن في خدمتك طوال الأسبوع</p>
-                        <p class="contact-info">
-                            <span class="hours-period">الفترة الصباحية</span><br>
-                            من 10 ص إلى 1 الظهر<br><br>
-                            <span class="hours-period">الفترة المسائية</span><br>
-                            من 4 م إلى 12 ص<br><br>
-                            <span class="hours-friday">الجمعة من 4 عصراً إلى 12 ص</span><br><br>
-                            <span class="hours-online">خدمه الأونلاين على مدار ٢٤ الساعة</span>
-                        </p>
+
+                        <div class="contact-info">
+                            <span class="hours-period">الفترة الصباحية</span>
+                            من 10 ص إلى 1 الظهر
+
+                            <span class="hours-period mt-3">الفترة المسائية</span>
+                            من 4 م إلى 12 ص
+
+                            <span class="hours-friday mt-3">
+                                الجمعة من 4 عصراً إلى 12 ص
+                            </span>
+
+                            <span class="hours-online mt-3">
+                                خدمة الأونلاين على مدار 24 ساعة
+                            </span>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Location -->
                 <div class="col-lg-4 col-md-6">
-                    <div class="contact-card fade-in card-glow shimmer" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="contact-card">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <h3 class="contact-title">الموقع</h3>
                         <p class="contact-text">زورونا في أحد فروعنا</p>
-                        <p class="contact-info">
-                            فرزاتشي (فرع ١): جده مجمع الشرق رقم / ١ بوبه رقم ٧<br>
-                            فرزاتشي (فرع ٢): جده مجمع الشرق رقم ٢ / بوبه رقم ٥
-                        </p>
+
+                        <div class="contact-info">
+                            <strong>فـرزاتشـي ١</strong><br>
+                            جدة – مجمع الشرق 1 – بوابة 7<br><br>
+
+                            <strong>فـرزاتشـي ٢</strong><br>
+                            جدة – مجمع الشرق 2 – بوابة 5
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </section> 
- 
+    </section>
+
+
     <section id="branches" class="branches-section gradient-extend">
         <div class="container">
 
@@ -645,37 +331,36 @@
                     </div>
                 </div>
             </div>
-
-            <!-- ===== Branch 1 ===== -->
             <div class="branch-box fade-in" data-aos="fade-up" data-aos-duration="1500">
 
 
                 <div class="branch-content row g-4">
-                    <!-- Map -->
                     <div class="col-lg-6">
                         <div class="branch-map">
                             <h3 class="branch-title">
                                 <span class="pin"></span>
-                                فرزاتشي (فرع ١)
+                                فـرزاتشـي ١
                             </h3>
                             <p class="branch-address">
-                                جده مجمع الشرق رقم / ١ بوبه رقم ٧
+                                جده مجمع الشرق رقم  / ١ بوبه رقم ٧
                             </p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3711.1028522042816!2d39.19436947527081!3d21.542833280238337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDMyJzM0LjIiTiAzOcKwMTEnNDkuMCJF!5e0!3m2!1sen!2ssa!4v1770584178875!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <a href="https://maps.app.goo.gl/oDYLs5C8eqp36c8CA?g_st=iw" target="_blank">
+                            <iframe src="https://www.google.com/maps?q=G5RW+XQW,+Mishrifah,+Jeddah+23336,+Saudi+Arabia&output=embed"
+                                    style="border:0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <a href="https://maps.app.goo.gl/mEhSkRV7zmNdpxjW7?g_st=iw" target="_blank">
                                 فتح على
                                 <span> Google Maps </span>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <!-- Slider -->
                         <div class="branch-gallery">
-
                             <div class="gallery-counter">
                                 <span class="current">1</span> / <span class="total">5</span>
                             </div>
-
                             <div class="gallery-slider">
                                 <img src="assets/images/branch-1/001.jpg" class="active" />
                                 <img src="assets/images/branch-1/002.jpg" />
@@ -683,7 +368,6 @@
                                 <img src="assets/images/branch-1/004.jpg" />
                                 <img src="assets/images/branch-1/005.jpg" />
                             </div>
-
                             <div class="gallery-nav">
                                 <button class="prev">›</button>
                                 <button class="next">‹</button>
@@ -692,8 +376,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- ===== Branch 2 ===== -->
             <div class="branch-box fade-in style-alt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
 
 
@@ -723,13 +405,20 @@
                         <div class="branch-map">
                             <h3 class="branch-title">
                                 <span class="pin"></span>
-                                فرزاتشي (فرع ٢)
+                                فـرزاتشـي ٢
                             </h3>
                             <p class="branch-address">
                                 جده مجمع الشرق رقم ٢ / بوبه رقم ٥
                             </p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3711.0765708511053!2d39.19411947527077!3d21.543861080237445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDMyJzM3LjkiTiAzOcKwMTEnNDguMSJF!5e0!3m2!1sen!2ssa!4v1770584203453!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <a href="https://maps.app.goo.gl/mEhSkRV7zmNdpxjW7?g_st=iw" target="_blank">
+                            <iframe src="https://www.google.com/maps?q=7571+Al+Makaronah+St,+Mishrifah,+Jeddah+23336,+Saudi+Arabia&output=embed"
+                                    style="border:0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+
+
+                            <a href="https://maps.app.goo.gl/oDYLs5C8eqp36c8CA?g_st=iw" target="_blank">
                                 فتح على
                                 <span> Google Maps </span>
                             </a>
@@ -756,10 +445,13 @@
                                 <i class="fab fa-instagram"></i>
                             </a>
                             <a href="https://www.tiktok.com/@versace.115" target="_blank" class="social tk">
-                                <i class="fab fa-tiktok"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0c-62.115 0-112.467 50.353-112.467 112.466h-80.334V-216.9c0-39.93-32.369-72.3-72.301-72.3-39.929 0-72.298 32.37-72.298 72.3 0 39.929 32.369 72.299 72.298 72.299v80.334c-84.294 0-152.632-68.337-152.632-152.633 0-84.297 68.338-152.634 152.632-152.634 84.301 0 152.635 68.337 152.635 152.634v172.761C-80.811-66.912-41.975-80.334 0-80.334Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1;" transform="translate(464.867 384.534)" fill="none" stroke="#FFFFFF" stroke-width="30px" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1"></path></g></g></svg>
                             </a>
                             <a href="https://snapchat.com/t/G1GQssCi" target="_blank" class="social sc">
                                 <i class="fab fa-snapchat"></i>
+                            </a>
+                            <a href="tel:0569397391" class="social call">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" x="0" y="0" viewBox="0 0 473.806 473.806" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M374.456 293.506c-9.7-10.1-21.4-15.5-33.8-15.5-12.3 0-24.1 5.3-34.2 15.4l-31.6 31.5c-2.6-1.4-5.2-2.7-7.7-4-3.6-1.8-7-3.5-9.9-5.3-29.6-18.8-56.5-43.3-82.3-75-12.5-15.8-20.9-29.1-27-42.6 8.2-7.5 15.8-15.3 23.2-22.8 2.8-2.8 5.6-5.7 8.4-8.5 21-21 21-48.2 0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5-6-6.2-12.3-12.6-18.8-18.6-9.7-9.6-21.3-14.7-33.5-14.7s-24 5.1-34 14.7l-.2.2-34 34.3c-12.8 12.8-20.1 28.4-21.7 46.5-2.4 29.2 6.2 56.4 12.8 74.2 16.2 43.7 40.4 84.2 76.5 127.6 43.8 52.3 96.5 93.6 156.7 122.7 23 10.9 53.7 23.8 88 26 2.1.1 4.3.2 6.3.2 23.1 0 42.5-8.3 57.7-24.8.1-.2.3-.3.4-.5 5.2-6.3 11.2-12 17.5-18.1 4.3-4.1 8.7-8.4 13-12.9 9.9-10.3 15.1-22.3 15.1-34.6 0-12.4-5.3-24.3-15.4-34.3l-54.9-55.1zm35.8 105.3c-.1 0-.1.1 0 0-3.9 4.2-7.9 8-12.2 12.2-6.5 6.2-13.1 12.7-19.3 20-10.1 10.8-22 15.9-37.6 15.9-1.5 0-3.1 0-4.6-.1-29.7-1.9-57.3-13.5-78-23.4-56.6-27.4-106.3-66.3-147.6-115.6-34.1-41.1-56.9-79.1-72-119.9-9.3-24.9-12.7-44.3-11.2-62.6 1-11.7 5.5-21.4 13.8-29.7l34.1-34.1c4.9-4.6 10.1-7.1 15.2-7.1 6.3 0 11.4 3.8 14.6 7l.3.3c6.1 5.7 11.9 11.6 18 17.9 3.1 3.2 6.3 6.4 9.5 9.7l27.3 27.3c10.6 10.6 10.6 20.4 0 31-2.9 2.9-5.7 5.8-8.6 8.6-8.4 8.6-16.4 16.6-25.1 24.4-.2.2-.4.3-.5.5-8.6 8.6-7 17-5.2 22.7l.3.9c7.1 17.2 17.1 33.4 32.3 52.7l.1.1c27.6 34 56.7 60.5 88.8 80.8 4.1 2.6 8.3 4.7 12.3 6.7 3.6 1.8 7 3.5 9.9 5.3.4.2.8.5 1.2.7 3.4 1.7 6.6 2.5 9.9 2.5 8.3 0 13.5-5.2 15.2-6.9l34.2-34.2c3.4-3.4 8.8-7.5 15.1-7.5 6.2 0 11.3 3.9 14.4 7.3l.2.2 55.1 55.1c10.3 10.2 10.3 20.7.1 31.3zM256.056 112.706c26.2 4.4 50 16.8 69 35.8s31.3 42.8 35.8 69c1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.4-1.2 12.3-8.2 11.1-15.6-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3 3.7-15.6 11s3.5 14.4 10.9 15.6zM473.256 209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2 3.7-15.5 11-1.2 7.4 3.7 14.3 11.1 15.6 46.6 7.9 89.1 30 122.9 63.7 33.8 33.8 55.8 76.3 63.7 122.9 1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.3-1.1 12.3-8.1 11-15.4z" fill="#FFFFFF" opacity="1" data-original="#000000" class=""></path></g></svg>
                             </a>
                         </div>
 
@@ -768,8 +460,9 @@
             </div>
         </footer>
     </section>
-  
-    <!-- Gallery Popup Slider -->
+
+
+
     <div class="gallery-popup" id="galleryPopup">
         <div class="popup-overlay"></div>
         <div class="popup-container">
@@ -795,179 +488,82 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
     <script>
-        GLightbox({
-            touchNavigation: true,
-            loop: true,
-            zoomable: true
-        });
-    </script>
+        document.addEventListener("DOMContentLoaded", function () {
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMaps"
-            async
-            defer>
-    </script>
+            gsap.registerPlugin(ScrollTrigger);
+            gsap.timeline({
+                onComplete: initAnimations
+            })
+                .to("#loader", {
+                    opacity: 0,
+                    duration: 1,
+                    delay: .7,
+                    ease: "power2.out",
+                    onComplete: () => {
+                        document.getElementById("loader").remove();
+                        ScrollTrigger.refresh();
+                    }
+                });
 
+            function initAnimations() {
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        // Initialize Hero Slider
-        const heroSwiper = new Swiper('.hero-swiper', {
-            loop: true,
-            speed: 1200,
-            effect: 'fade',
-            fadeEffect: {
-                crossFade: true
-            },
-            autoplay: {
-                delay: 8000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true
-            },
-            navigation: {
-                nextEl: '.hero-nav.next',
-                prevEl: '.hero-nav.prev'
-            },
-            pagination: {
-                el: '.hero-pagination',
-                clickable: true,
-                bulletClass: 'hero-bullet',
-                bulletActiveClass: 'hero-bullet-active',
-                renderBullet: function (index, className) {
-                    return '<span class="' + className + '"><span class="bullet-core"></span></span>';
-                }
-            },
-            on: {
-                init(swiper) {
-                    initSlideBackgrounds();
-                    animateSlideContent(swiper.slides[swiper.activeIndex]);
-                    updateHeroCounter(swiper);
-                    updateHeroProgress(swiper);
-                },
-                slideChangeTransitionStart(swiper) {
-                    const activeSlide = swiper.slides[swiper.activeIndex];
-                    resetSlideContent(activeSlide);
-                },
-                slideChangeTransitionEnd(swiper) {
-                    const activeSlide = swiper.slides[swiper.activeIndex];
-                    animateSlideContent(activeSlide);
-                    updateHeroCounter(swiper);
-                    updateHeroProgress(swiper);
-                },
-                autoplayTimeLeft(swiper, time, progress) {
-                    updateHeroProgressBar(1 - progress);
-                }
-            }
-        });
+                /* HERO Intro */
+                gsap.from(".logo-hero", {
+                    y: 40,
+                    opacity: 0,
+                    duration: 1,
+                    ease: "power3.out"
+                });
 
-        // Initialize slide backgrounds
-        function initSlideBackgrounds() {
-            document.querySelectorAll('.slide-bg').forEach(bg => {
-                const bgUrl = bg.getAttribute('data-bg');
-                if (bgUrl) {
-                    bg.style.backgroundImage = `url(${bgUrl})`;
-                }
-            });
-        }
+                gsap.from(".main-title", {
+                    y: 60,
+                    opacity: 0,
+                    duration: 1.2,
+                    delay: 0.2,
+                    ease: "power4.out"
+                });
 
-        // Animate slide content
-        function animateSlideContent(slide) {
-            const content = slide.querySelector('.slide-content');
-            const badge = slide.querySelector('.slide-badge');
-            const titleLines = slide.querySelectorAll('.title-line');
-            const description = slide.querySelector('.slide-description');
-            const btn = slide.querySelector('.slide-btn');
-            const particles = slide.querySelectorAll('.particle');
-            const shapes = slide.querySelectorAll('.shape');
+                gsap.from(".par-hero, .ul-phones li", {
+                    y: 30,
+                    opacity: 0,
+                    duration: 1,
+                    stagger: 0.15,
+                    delay: 0.4,
+                    ease: "power3.out"
+                });
 
-            if (content) {
-                content.style.opacity = '0';
-                setTimeout(() => {
-                    content.style.opacity = '1';
-                    content.style.transform = 'translateY(0)';
-                }, 100);
+                /* ABOUT TEXT */
+                gsap.from(".about-content > *", {
+                    scrollTrigger: {
+                        trigger: ".about-section",
+                        start: "top 70%"
+                    },
+                    y: 40,
+                    opacity: 0,
+                    stagger: 0.2,
+                    duration: 1,
+                    ease: "power3.out"
+                });
+
+                /* ABOUT IMAGE (RTL friendly) */
+                gsap.from(".about-image img", {
+                    scrollTrigger: {
+                        trigger: ".about-image",
+                        start: "top 75%"
+                    },
+                    x: 40,
+                    opacity: 0,
+                    scale: 0.96,
+                    duration: 1.2,
+                    ease: "power3.out"
+                });
+
             }
 
-            if (badge) {
-                badge.style.animation = 'slideInDown 0.6s ease 0.2s both';
-            }
-
-            titleLines.forEach((line, index) => {
-                line.style.animation = `slideInRight 0.8s ease ${0.4 + index * 0.1}s both`;
-            });
-
-            if (description) {
-                description.style.animation = 'fadeInUp 0.8s ease 0.7s both';
-            }
-
-            if (btn) {
-                btn.style.animation = 'fadeInUp 0.8s ease 0.9s both';
-            }
-
-            particles.forEach((particle, index) => {
-                particle.style.animation = `float 6s ease-in-out ${index * 0.5}s infinite`;
-            });
-
-            shapes.forEach((shape, index) => {
-                shape.style.animation = `morph 8s ease-in-out ${index * 1.5}s infinite`;
-            });
-        }
-
-        // Reset slide content
-        function resetSlideContent(slide) {
-            const content = slide.querySelector('.slide-content');
-            const badge = slide.querySelector('.slide-badge');
-            const titleLines = slide.querySelectorAll('.title-line');
-            const description = slide.querySelector('.slide-description');
-            const btn = slide.querySelector('.slide-btn');
-
-            [badge, ...titleLines, description, btn].forEach(el => {
-                if (el) el.style.animation = 'none';
-            });
-        }
-
-        // Update counter
-        function updateHeroCounter(swiper) {
-            const current = document.querySelector('.counter-current');
-            const total = document.querySelector('.counter-total');
-            if (current) {
-                current.textContent = (swiper.realIndex + 1).toString().padStart(2, '0');
-            }
-            if (total) {
-                total.textContent = swiper.slides.length.toString().padStart(2, '0');
-            }
-        }
-
-        // Update progress
-        function updateHeroProgress(swiper) {
-            const progress = (swiper.realIndex + 1) / swiper.slides.length;
-            updateHeroProgressBar(progress);
-        }
-
-        function updateHeroProgressBar(progress) {
-            const progressFill = document.querySelector('.progress-fill');
-            if (progressFill) {
-                progressFill.style.width = (progress * 100) + '%';
-            }
-        }
-
-        // Navigation ripple effect
-        document.querySelectorAll('.hero-nav').forEach(nav => {
-            nav.addEventListener('click', function(e) {
-                const ripple = this.querySelector('.nav-ripple');
-                if (ripple) {
-                    ripple.style.animation = 'none';
-                    setTimeout(() => {
-                        ripple.style.animation = 'ripple 0.6s ease-out';
-                    }, 10);
-                }
-            });
-        });
-
-        // Initialize on load
-        window.addEventListener('load', () => {
-            initSlideBackgrounds();
         });
     </script>
     <script>
@@ -1016,16 +612,49 @@
         const popupPrev = popup.querySelector('.popup-nav.prev');
         const popupNext = popup.querySelector('.popup-nav.next');
         const popupThumbnails = document.getElementById('popupThumbnails');
+        //let zoomed = false;
 
+        //popupImage.addEventListener('click', function (e) {
+
+        //    if (popupImages.length > 1) return; // يشتغل بس مع صورة واحدة
+
+        //    zoomed = !zoomed;
+
+        //    if (zoomed) {
+        //        this.style.transform = "scale(2)";
+        //        this.style.transition = "transform 0.4s ease";
+        //        this.style.cursor = "zoom-out";
+        //    } else {
+        //        this.style.transform = "scale(1)";
+        //        this.style.cursor = "zoom-in";
+        //    }
+
+        //});
+         
         function openGalleryPopup(images, startIndex = 0) {
             popupImages = images;
             popupCurrentIndex = startIndex;
             popupTotal.textContent = images.length;
+
             generateThumbnails(images);
             updatePopupImage();
             updateActiveThumbnail();
+
             popup.classList.add('active');
             document.body.style.overflow = 'hidden';
+
+            // 👇 لو صورة واحدة نخفي عناصر التنقل
+            if (images.length === 1) {
+                popupPrev.style.display = "none";
+                popupNext.style.display = "none";
+                popup.querySelector('.popup-counter').style.display = "none";
+                popupThumbnails.style.display = "none";
+            } else {
+                popupPrev.style.display = "";
+                popupNext.style.display = "";
+                popup.querySelector('.popup-counter').style.display = "";
+                popupThumbnails.style.display = "";
+            }
         }
 
         function generateThumbnails(images) {
@@ -1067,7 +696,7 @@
         function updatePopupImage() {
             const slide = popupSlide;
             slide.classList.remove('active', 'prev', 'next');
-            
+
             setTimeout(() => {
                 popupImage.src = popupImages[popupCurrentIndex];
                 popupCurrent.textContent = popupCurrentIndex + 1;
@@ -1153,8 +782,6 @@
         });
     </script>
 
-    <!-- AOS Initialization -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         // Initialize AOS
         AOS.init({
@@ -1332,7 +959,7 @@
                     opacity: 1,
                     x: 0,
                     rotationY: 0,
-                    duration: 0.8,
+                    duration: 1.2,
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: item,
@@ -1580,7 +1207,7 @@
                     ease: "power2.out"
                 });
             });
-            
+
             img.addEventListener('mouseleave', () => {
                 gsap.to(img, {
                     scale: 1,
@@ -1601,7 +1228,7 @@
                     ease: "back.out(1.7)"
                 });
             });
-            
+
             nav.addEventListener('mouseleave', () => {
                 gsap.to(nav, {
                     scale: 1,
@@ -1623,12 +1250,12 @@
                     const targetY = target.offsetTop - offset;
                     const distance = targetY - startY;
                     const duration = Math.min(Math.abs(distance) / 2, 2000);
-                    
+
                     gsap.to({ y: startY }, {
                         y: targetY,
                         duration: duration / 1000,
                         ease: "power3.inOut",
-                        onUpdate: function() {
+                        onUpdate: function () {
                             window.scrollTo(0, this.targets()[0].y);
                         }
                     });
@@ -1636,134 +1263,6 @@
             });
         });
 
-        console.log('🎨 Scroll Animations Loaded!');
-    </script>
-
-    <!-- CRAZY AWESOME EFFECTS SCRIPT -->
-    <script>
-        // Page Loader
-        window.addEventListener('load', () => {
-            const loader = document.getElementById('pageLoader');
-            setTimeout(() => {
-                loader.classList.add('hidden');
-                setTimeout(() => {
-                    loader.style.display = 'none';
-                }, 500);
-            }, 1500);
-        });
-
-
-        // Magnetic Buttons Effect
-        const magneticElements = document.querySelectorAll('.slide-btn, .contact-link, .hero-nav, .popup-nav');
-        magneticElements.forEach(el => {
-            el.classList.add('magnetic-element');
-            el.addEventListener('mousemove', (e) => {
-                const rect = el.getBoundingClientRect();
-                const x = e.clientX - rect.left - rect.width / 2;
-                const y = e.clientY - rect.top - rect.height / 2;
-                const distance = Math.sqrt(x * x + y * y);
-                const maxDistance = 100;
-
-                if (distance < maxDistance) {
-                    const moveX = (x / maxDistance) * 20;
-                    const moveY = (y / maxDistance) * 20;
-                    gsap.to(el, {
-                        x: moveX,
-                        y: moveY,
-                        duration: 0.3,
-                        ease: "power2.out"
-                    });
-                }
-            });
-
-            el.addEventListener('mouseleave', () => {
-                gsap.to(el, {
-                    x: 0,
-                    y: 0,
-                    duration: 0.5,
-                    ease: "elastic.out(1, 0.3)"
-                });
-            });
-        });
-
-        // 3D Tilt Effect on Cards
-        const tiltCards = document.querySelectorAll('.service-card, .testimonial-card, .contact-card, .category-card, .process-step, .stat-card');
-        tiltCards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-                const rotateX = (y - centerY) / 10;
-                const rotateY = (centerX - x) / 10;
-
-                gsap.to(card, {
-                    rotationX: rotateX,
-                    rotationY: rotateY,
-                    transformPerspective: 1000,
-                    duration: 0.3,
-                    ease: "power2.out"
-                });
-            });
-
-            card.addEventListener('mouseleave', () => {
-                gsap.to(card, {
-                    rotationX: 0,
-                    rotationY: 0,
-                    duration: 0.5,
-                    ease: "elastic.out(1, 0.3)"
-                });
-            });
-        });
-
-        // Button Ripple Effect
-        const rippleButtons = document.querySelectorAll('.slide-btn, .contact-link, button');
-        rippleButtons.forEach(btn => {
-            btn.classList.add('ripple-button');
-            btn.addEventListener('click', function(e) {
-                const ripple = document.createElement('span');
-                ripple.className = 'ripple-effect';
-                const rect = this.getBoundingClientRect();
-                const size = Math.max(rect.width, rect.height);
-                const x = e.clientX - rect.left - size / 2;
-                const y = e.clientY - rect.top - size / 2;
-                ripple.style.width = ripple.style.height = size + 'px';
-                ripple.style.left = x + 'px';
-                ripple.style.top = y + 'px';
-                this.appendChild(ripple);
-                setTimeout(() => ripple.remove(), 600);
-            });
-        });
-
-
-        // Image Reveal on Scroll removed for about-image and why-choose-image to prevent black overlay
-
-        // Add glow pulse to important elements
-        const glowElements = document.querySelectorAll('.overlay-title, .branches-main-title');
-        glowElements.forEach(el => {
-            el.classList.add('glow-pulse');
-        });
-
-        // Smooth scroll with momentum
-        let isScrolling = false;
-        let scrollVelocity = 0;
-        let lastScrollTop = 0;
-
-        window.addEventListener('scroll', () => {
-            if (!isScrolling) {
-                window.requestAnimationFrame(() => {
-                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                    scrollVelocity = scrollTop - lastScrollTop;
-                    lastScrollTop = scrollTop;
-                    isScrolling = false;
-                });
-                isScrolling = true;
-            }
-        });
-
-
-        console.log('🚀 Crazy Awesome Effects Loaded!');
     </script>
 
 </body>
